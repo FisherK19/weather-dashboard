@@ -1,4 +1,3 @@
-var owmAPI = "55f5bd14f08a6ee76904b26048923c71";
 
 function buildQueryURL(city, type) {
     let baseURL = "https://api.openweathermap.org/data/2.5/";

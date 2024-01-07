@@ -1,80 +1,110 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background: #eaeaea;
+    box-sizing: border-box;
 }
 
-header {
-    background: #007bff;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eae3e3;
+    color: #333;
+    line-height: 1.6;
 }
 
-main {
+/* Container */
+.container {
     width: 80%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: auto;
+    overflow: hidden;
 }
 
-#search-section {
-    margin-bottom: 20px;
+/* Header */
+#header {
+    background-color: #396799; 
+    border: 2px solid #0a3b6f; 
+    padding: 20px;
+    text-align: center;
+    color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
 }
 
-#city-search {
-    padding: 10px;
-    margin-right: 10px;
-    width: 300px;
+h3 {
+    color: #121212;
+}
+
+#current-weather p {
+    color: #121212;
+}
+#current-weather {
+    border: 2px solid black;
+    border-radius: 10px; 
+    padding: 15px; 
+    background-color: white; 
+}
+#search-container {
+    border-bottom: 2px solid #333; 
+    padding-bottom: 10px; 
+    #search-container {
+        border-bottom: 2px solid #333; /* This creates the line under the search button */
+        padding-bottom: 10px; /* Adds some space between the button and the line */
+    }
 }
 
 #search-button {
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
+    height: 40px; 
+    margin-top: 10px; 
+    width: 100%; 
+    background-color: #396799;
+}
+.forecast-item h5 {
+    color: white 
+}
+.forecast-item {
+    width: 18%; 
+    padding: 10px; 
+    font-size: 0.8em; 
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #051245;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    display: inline-block; 
 }
 
-#search-button:hover {
-    background: #0056b3;
+.forecast-item p {
+    margin: 5px 0; 
+    color: #f6f1f1; 
 }
-
-#current-weather, #forecast {
-    background: white;
-    padding: 20px;
-    width: 100%;
-    margin-bottom: 20px;
+.search-label {
+    font-size: 1.2em; 
+    font-weight: bold; 
 }
-
-#search-history {
-    width: 100%;
-}
-
 #history-list {
-    list-style-type: none;
+    list-style-type: none; 
     padding: 0;
 }
 
-#history-list li {
-    background: #f8f9fa;
-    padding: 10px;
-    margin-bottom: 10px;
+.list-group-item {
     cursor: pointer;
+    margin-bottom: 2px;
+    background-color: #c8c8cf;
+    border: 1px solid rgb(14, 14, 15);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#history-list li, .list-group-item {
+    border-radius: 10px; 
+    margin-bottom: 10px; 
 }
 
-#history-list li:hover {
-    background: #e9ecef;
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .search-box input[type="text"], .search-box button {
+        width: 100%;
+    }
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #007bff;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}

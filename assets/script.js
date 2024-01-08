@@ -1,4 +1,4 @@
-
+/* add API KEY */
 function buildQueryURL(city, type) {
     let baseURL = "https://api.openweathermap.org/data/2.5/";
     return `${baseURL}${type}?q=${city}&appid=${owmAPI}&units=imperial`;

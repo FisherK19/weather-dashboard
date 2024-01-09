@@ -24,3 +24,4 @@ THEN I am again presented with current and future conditions for that city
 
 <h4>Usage</h4>
 https://github.com/FisherK19/weather-dashboard
+ https://fisherk19.github.io/weather-dashboard/

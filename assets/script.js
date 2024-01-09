@@ -99,7 +99,7 @@ function addCityToList(city) {
 function saveCity(city) {
     localStorage.setItem('lastCity', city);
 }
-
+/* local storage */
 window.onload = () => {
     let lastCity = localStorage.getItem('lastCity');
     if (lastCity) {

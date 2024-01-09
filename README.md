@@ -1,6 +1,6 @@
 # weather-dashboard
 <h1>Description</h1>
-Welcome to the Weather Dashboard! where you can find the weather to any specific place world wide. This challenge helped me better understand using API's and finding an appropriate API to use for this challenge! I hope you enjoy the Weather Dashboard!
+Welcome to the Weather Dashboard! where you can find the weather to any specific place world wide. This challenge helped me better understand using API's and how to finde the appropriate API to use for this challenge! I hope you enjoy the Weather Dashboard!
 
 
 <h2> User Story </h2>
@@ -19,5 +19,7 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
+
+(![Project Screenshot](<image/Weather Dashboard Screenshot.png>))
 
 <h4>Usage</h4>

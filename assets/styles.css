@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*body*/
 body {
     font-family: 'Arial', sans-serif;
     background-color: #eae3e3;
@@ -32,7 +32,7 @@ body {
 h3 {
     color: #121212;
 }
-
+/*current weather styling */
 #current-weather p {
     color: #121212;
 }
@@ -42,13 +42,11 @@ h3 {
     padding: 15px; 
     background-color: white; 
 }
+/* search container styling and button */
 #search-container {
     border-bottom: 2px solid #333; 
     padding-bottom: 10px; 
-    #search-container {
-        border-bottom: 2px solid #333; 
-        padding-bottom: 10px; 
-    }
+    
 }
 
 #search-button {
@@ -57,6 +55,7 @@ h3 {
     width: 100%; 
     background-color: #396799;
 }
+/* forecast styling */
 .forecast-item h5 {
     color: white 
 }
